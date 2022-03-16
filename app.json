@@ -1,4 +1,8 @@
-{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "env": {
   "prefix": "prefix",
   "main_token": "main_token",
   "developers": ["developers"],
