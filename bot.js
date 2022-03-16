@@ -1,6 +1,6 @@
 const { Client, Collection } = require("discord.js");
 const Util = require('./structures/Util');
-const config = require('./config.json');
+const config = require('./app.json');
 const token  = config.main_token
 
 module.exports = class botClient extends Client {
