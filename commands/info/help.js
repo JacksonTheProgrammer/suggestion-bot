@@ -1,6 +1,6 @@
 const Command = require('../../structures/Command');
 const { MessageEmbed, DiscordAPIError } = require('discord.js');
-const config = require('../../config.json');
+const config = require('../../app.json');
 
 module.exports = class extends Command {
     constructor(...args) {
@@ -20,7 +20,7 @@ module.exports = class extends Command {
     const embed = new MessageEmbed()
     .setColor('GREEN')
     .setTitle(`${config.bot_name || 'Bot'}'s Command List`)
-    .setDescription(`**Please make sure to follow and star the github repo [here](https://github.com/peterhanania/suggestion-bot)**`)
+    .setDescription(`**kbffa.gq**`)
 
 
     const categories = message.client.utils.removeDuplicates(message.client.commands.filter(cmd => cmd.category !== 'Owner').map(cmd => cmd.category));
