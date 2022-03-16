@@ -4,4 +4,23 @@
   "developers": [""],
   "bot_name":"",
   "suggestion_channel_id":""
+  ],
+  "cftools_application_id": "COMPLETE THIS VALUE",
+  "cftools_client_id": "COMPLETE THIS VALUE",
+  "cftools_secret": "COMPLETE THIS VALUE",
+  "servers": [
+    {
+      "name": "Example Server",
+      "ip": "COMPLETE THIS VALUE",
+      "rcon_port": 2302,
+      "rcon_password": "COMPLETE THIS VALUE",
+      "steam_port": 27016,
+      "admin_channel_id": 12345678902,
+      "chat_channel_id": 12345678903,
+      "player_count_channel_id": 12345678904,
+      "player_count_format": "Players: {players}/{slots}",
+      "player_count_queue_format": " +{queue}",
+      "cftools_service_id": "COMPLETE THIS VALUE"
+    }
+  ]
 }
