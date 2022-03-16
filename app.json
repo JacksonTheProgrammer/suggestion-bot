@@ -4,18 +4,16 @@
   "lockfileVersion": 2,
   "requires": true,
   "env": {
-    "TOKEN": {
+    "prefix": {
         "description": "Your Bot Token"
-  "prefix": {
-              "description": "Your Bot Token",
-  "main_token": {
-              "description": "Your Bot Token",
-  "developers": {
-              "description": "Your Bot Token",
-  "bot_name":  {
-              "description": "Your Bot Token",
-  "suggestion_channel_id":  {
-              "description": "Your Bot Token",
+    "main_token": {
+        "description": "Your Bot Token"
+    "developers": {
+        "description": "Your Bot Token"
+    "bot_name": {
+        "description": "Your Bot Token"
+    "suggestion_channel_id": {
+        "description": "Your Bot Token"
     }
   },
   "packages": {
