@@ -1,16 +1,26 @@
 {
-  "name": "discord-bot",
+  "name": "suggestion-bot",
   "version": "1.0.0",
   "lockfileVersion": 2,
   "requires": true,
   "env": {
     "TOKEN": {
         "description": "Your Bot Token"
+  "prefix": {
+              "description": "Your Bot Token",
+  "main_token": {
+              "description": "Your Bot Token",
+  "developers": {
+              "description": "Your Bot Token",
+  "bot_name":  {
+              "description": "Your Bot Token",
+  "suggestion_channel_id":  {
+              "description": "Your Bot Token",
     }
   },
   "packages": {
     "": {
-      "name": "discord-bot",
+      "name": "suggestion-bot",
       "version": "1.0.0",
       "license": "ISC",
       "dependencies": {
