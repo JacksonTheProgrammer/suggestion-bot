@@ -1,5 +1,5 @@
 const botclient = require("./bot");
-const config = require("./config.json");
+const config = require("./app.json");
 
 // define the client
 const bot = new botclient(config);
