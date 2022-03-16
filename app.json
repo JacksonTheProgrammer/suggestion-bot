@@ -1,9 +1,9 @@
 {
-  "prefix": "",
-  "main_token": "",
-  "developers": [""],
-  "bot_name":"",
-  "suggestion_channel_id":""
+  "prefix": "prefix",
+  "main_token": "main_token",
+  "developers": ["developers"],
+  "bot_name":"bot_name",
+  "suggestion_channel_id":"suggestion_channel_id"
   "cftools_application_id": "COMPLETE THIS VALUE",
   "cftools_client_id": "COMPLETE THIS VALUE",
   "cftools_secret": "COMPLETE THIS VALUE",
